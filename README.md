@@ -37,6 +37,9 @@ npm run dev
 ## 🛠 Skrip NPM
 
 npm run dev: Menjalankan frontend & backend secara bersamaan
+
 npm run build: Build frontend
+
 npm run dev:backend: Jalankan hanya backend
+
 npm run dev:frontend: Jalankan hanya frontend
