@@ -14,7 +14,7 @@ export const Sidebar: React.FC = () => {
         <ICONS.GreenLogo width={50} height={50} />
         <div>
           <h1>PUSKESMAN</h1>
-          <h2>Bojonegoro</h2>
+          <h2>Gondang</h2>
         </div>
       </div>
 

@@ -23,7 +23,7 @@ export const Login: React.FC = (): JSX.Element => {
         )}
         <div className={isSignUp ? styles.whiteLogo : styles.greenLogo}>
           <h1>PUSKESMAS</h1>
-          <p>Bojonegoro</p>
+          <p>Gondang</p>
         </div>
       </div>
 

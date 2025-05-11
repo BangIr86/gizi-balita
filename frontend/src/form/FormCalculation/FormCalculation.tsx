@@ -159,7 +159,7 @@ export const FormCalculation: React.FC = () => {
           errMessage={errMessage.height}
         />
         <TextInput
-          label="Lingkar Kepala"
+          label="LiLA"
           isRequired
           placeholder="0"
           prefix="Cm"
