@@ -27,7 +27,14 @@ cd gizi-balita
 #2. install concurrently
 npm install --save-dev concurrently
 
-# 3. Install dependencies
+#3. Install dependencies
+npm run prepare --legacy-peer-deps
+#Option
+# Langkah 1
+cd ./backend
+npm run prepare --legacy-peer-deps
+# Langkah 2
+cd ./frontend
 npm run prepare --legacy-peer-deps
 
 #4. migration table
@@ -41,6 +48,9 @@ npm run dev
 ## 🛠 Skrip NPM
 
 npm run dev: Menjalankan frontend & backend secara bersamaan
+
 npm run build: Build frontend
+
 npm run dev:backend: Jalankan hanya backend
+
 npm run dev:frontend: Jalankan hanya frontend
